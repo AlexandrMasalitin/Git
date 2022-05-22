@@ -6,13 +6,13 @@ constructor(props) {
   super(props)
 
   this.state = {
-   
+
   }
 }
 
 
   render() {
-    return (
+
       <div>
         <h1>Class Component</h1>
       
@@ -20,6 +20,3 @@ constructor(props) {
     )
   }
 }
-
-
-
