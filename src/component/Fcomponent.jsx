@@ -5,14 +5,16 @@ constructor(props) {
   super(props)
 
   this.state = {
-     first
+    
   }
 }
 
 
   render() {
     return (
-      <div>Fcomponent</div>
+      <div>
+        <h1>Function Component</h1>
+      </div>
     )
   }
 }

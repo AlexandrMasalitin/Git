@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Ccomponent from './component/Ccomponent';
+import Fcomponent from './component/Fcomponent';
+import Counter from './component/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Start training React + Git
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React + Git
-        </a>
-      </header>
+        <h1>Hello World</h1>
+        <ul>
+          <li><h1>ReactJs</h1></li>
+          <li><h1>Git</h1></li>
+        </ul>
+        <Ccomponent />
+        <Fcomponent />
+        <Counter />
     </div>
   );
 }
